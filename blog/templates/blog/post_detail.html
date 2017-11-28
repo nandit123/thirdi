@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+</head>
+<body>
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+    <div style="margin-left : 5%; margin-top : 10%">
+        {% if post.published_date %}
+            <div>
+                {{ post.published_date }}
+            </div>
+        {% endif %}
+        <h1 style="color : blue">{{ post.title }}</h1>
+        {% load static %}
+        <img src = "../../{{post.profile_image}}" height = "200" width = "200">
+        <h3>{{ post.text|linebreaksbr }}</h3>
+    </div>
+{% endblock %}
+</body>
+</html>
