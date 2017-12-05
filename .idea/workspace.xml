@@ -4,30 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/blog/templates/blog/home.html" line="275" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c364257-7558-4039-9f21-c0a7ea6351e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/21112017" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/New Microsoft Word Document (2).docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pics_Content.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bmu india.odt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bmuindia/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bmuindia/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bmuindia/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bmuindia/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/55158_kollkl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/Write_up.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/needed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/sponsors list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/team-photo-in-manila.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsorship thing/tshirt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/to do.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/particles.js-master/demo/css/style.css" afterPath="$PROJECT_DIR$/static/particles.js-master/demo/css/style.css" />
-    </list>
+    <list default="true" id="1c364257-7558-4039-9f21-c0a7ea6351e1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="267" />
     <option name="y" value="292" />
     <option name="width" value="1261" />
@@ -282,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25216025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
