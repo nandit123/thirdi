@@ -1,1 +1,1 @@
-web: gunicorn bmuindia.wsgi --log-file -
+web: gunicorn --pythonpath thirdi thirdi.wsgi --log-file -
