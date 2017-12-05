@@ -25,7 +25,7 @@ SECRET_KEY = '$ms#-46ugmw#vm-!^^s3ao@w(#-3gsvwoob@#^0ehvxuftfm-g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'nandit123.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
