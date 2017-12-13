@@ -5,6 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c364257-7558-4039-9f21-c0a7ea6351e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/28.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/BMU India.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/FULL BODY.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/IMG_20171109_192443.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/PERSPECTIVE VIEW ( BODY DRAFT ).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/RENDERING ( BODY  ).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/Steering.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/TOP VIEW.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/activity.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/blog_image_1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/blog_image_2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/blog_image_3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/bml logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/bmu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/car1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/car2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/car3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/hero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/hubs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ironman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/jquery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/demo/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/demo/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/demo/js/lib/stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/demo/particles.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/particles.js-master/particles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/quote.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/routing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/shellBanner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/steering dxf 1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/steering dxf 3.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/thirdi.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thirdi/settings.py" afterPath="$PROJECT_DIR$/thirdi/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +90,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thirdi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="131" column="49" lean-forward="false" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+            <state relative-caret-position="480">
+              <caret line="139" column="32" lean-forward="false" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
               <folding>
                 <element signature="e#321#330#0" expanded="true" />
               </folding>
@@ -114,16 +168,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1620">
               <caret line="90" column="27" lean-forward="false" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/particles.js-master/demo/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -229,11 +273,6 @@
             <path>
               <item name="thirdi" type="b2602c69:ProjectViewProjectNode" />
               <item name="thirdi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thirdi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thirdi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thirdi" type="b2602c69:ProjectViewProjectNode" />
@@ -579,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thirdi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="131" column="49" lean-forward="false" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+        <state relative-caret-position="480">
+          <caret line="139" column="32" lean-forward="false" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
           <folding>
             <element signature="e#321#330#0" expanded="true" />
           </folding>
