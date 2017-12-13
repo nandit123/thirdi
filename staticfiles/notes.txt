@@ -1,0 +1,9 @@
+important commands
+>>python manage.py runserver
+>>
+
+
+check favourites pages in microsoft edge
+
+
+https://codepen.io/joxmar/pen/NqqMEg

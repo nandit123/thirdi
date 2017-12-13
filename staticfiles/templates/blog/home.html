@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Third i</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+
+    <link rel="stylesheet" media="screen" href="/static/particles.js-master/demo/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+    <link rel="shortcut icon" href="/static/thirdi.png" type="image/x-icon">
+    <link rel="icon" href="/static/thirdi.png" type="image/x-icon">
+    
+    <style>
+        footer {
+            padding:50px;
+            background-color : #444; color : white; margin:0;
+        }
+        h2{
+            color: blue;
+        }
+        .jumbotron{
+            margin: 0;
+            background-color:white;
+        }
+        .parallax1{
+            background-image : url("/static/steering dxf 3.JPG");
+            min-height : 450px;
+            background-width : 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 50% 60%;
+    	    background-color: black;
+
+        }
+        .parallax2{
+            background-image : url("/static/TOP VIEW.jpg");
+            min-height : 450px;
+	        background-width : 100%;
+            background-attachment:fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+	        background-color: black;
+	    
+
+        }
+        .parallax3{
+            background-image : url("/static/steering dxf 1.JPG");
+            min-height : 450px;
+ 	        background-width : 100%;
+            background-attachment:fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+	        background-color: black;
+        }
+
+        @media screen and (min-width: 480px) {
+        #myCarousel{
+            width : 60%;
+            float : left;
+            margin-left : 5%;
+            border-radius: 25px;
+
+        }
+        #myCarousel img{
+		    height : 500px;
+		    width : 100%;
+		    z-index: 1;
+		}
+		#team img
+		{
+		    width : 50%;
+		}
+        #fb
+        {
+             width:25%;
+             margin-left: 8%;
+             margin margin-top:50px;
+             height:450px;
+        }
+        #home_container
+        {
+            height : 100%;
+            width : 100%;
+        }
+        #below
+        {
+            width : 100%;
+            height : 100%;
+            position : relative;
+        }
+        #above
+        {
+            width : 100%;
+            height : 500px;
+            position : absolute;
+            top : 10%;
+        }
+}
+        @media screen and (max-width: 480px)
+        {
+            #myCarousel{
+                height : 250px;
+		        margin-top:50px;
+		        border-radius:0;
+		    }
+		#myCarousel img{
+		    height : 250px;
+		    }
+            #below
+            {
+                display : none !important;
+            }
+        #sponsors img{
+            margin-bottom : 50px;
+
+        }
+            .fb-page, #fb
+            {
+		display : none;
+                margin-left : 0%;
+                width : 100%;
+            }
+		.parallax1
+		{
+			-webkit-min-height:250px;
+			-webkit-background-size: 100% 60%;
+			-moz-min-height:250px;
+			-moz-background-size: 100% 60%;
+			min-height:250px;
+			background-size: 100% 60%;
+			
+		}
+		.parallax2
+		{
+			-webkit-min-height:250px;
+			-webkit-background-size: 100% 60%;
+			-moz-min-height:250px;
+			-moz-background-size: 100% 60%;
+			min-height:250px;
+			background-size: 100% 60%;
+
+
+		}
+		.parallax3
+		{
+			-webkit-min-height:250px;
+			-webkit-background-size: 100% 60%;
+			-moz-min-height:250px;
+			-moz-background-size: 100% 60%;
+			min-height:250px;
+			background-size: 100% 60%;
+		}
+		.item img
+		{
+			border-radius: 0 !important;
+		}
+		p{
+			font-size: 70%;	
+		}
+		#team img
+		{
+		    width : 100px;
+		    height : 100px;
+
+		}
+
+        }
+
+    </style>
+    </head>
+<body id="page-top">
+<div id="home_container">
+<div style="" id="below">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <!-- scripts -->
+    <script src="/static/particles.js-master/particles.js"></script>
+    <script src="/static/particles.js-master/demo/js/app.js"></script>
+
+    <!-- stats.js -->
+    <script>
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
+</div>
+
+
+
+<div id="fb-root"></div>
+<!--for facebook plugin-->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: white">Third i | Ecstasy</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+            <ul class="nav navbar-nav navbar-right">
+		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutUs">About Us</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#event">Event</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#activities">Activities</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="above">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+    {% load static %}
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+
+    <div class="item">
+      <img src="/static/28.JPG" alt="car actual model">
+    </div>
+
+    <div class="item active">
+      <img src="/static/RENDERING ( BODY  ).png" alt="car rendering pic">
+    </div>
+  </div>
+
+</div>
+<div id="fb" class="fb-page" data-href="https://www.facebook.com/BMUSPLENDOUR/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BMUSPLENDOUR/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BMUSPLENDOUR/">BMU INDIA</a></blockquote></div>
+</div>
+</div>
+
+
+<section id="aboutUs">
+<div class="jumbotron" style="margin-bottom : 0">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Third i is the Team from BML Munjal University for Shell Eco Marathon 2018.<br>
+        The Team is competing in  the urban concept category and aims to build the most fuel efficient vehicle that is
+        suitable for urban area. <br>First time students are competing outside their country to compete with teams at International level. <br>
+	Apart from gaining great International exposure, the team is determined to win the competition.</p>
+    </div>
+
+</div>
+</section>
+<div class="parallax1"></div>
+<section id="event">
+<div class="jumbotron">
+    <div class="container">
+        <h2>Event</h2>
+        <p>Shell Eco-Marathon challenges student teams around the world to design, build, test and drive ultra-energy-efficient vehicles.
+With three annual events in Asia, Americas and Europe, student teams take to the track to see who goes further on the least amount of fuel.
+The competition is split into two classes or categories. The Prototype class focuses on maximum efficiency, while passenger comfort takes a back seat. The UrbanConcept class encourages more practical designs. Cars are also divided by energy type:
+Internal combustion engine fuels include petrol, diesel, liquid fuel made from natural gas and ethanol.
+In the electric mobility category, vehicles are powered by hydrogen fuel cells and lithium-based batteries.</p>
+    </p>
+</div>
+</div>
+</section>
+<div class="parallax2"></div>
+
+<div id="activities" class="jumbotron">
+<div  class="container text-center">
+  <h2>Latest Activities</h2>
+    <div class="row">
+        {% for post in posts %}
+		<div class="col-sm-4">
+                <a href="{% url 'post_detail' pk=post.pk %}">
+		<h4>{{post}} </h4>
+                <img src = {{post.profile_image}} height = "200" width = "200">
+		<h5>{{ post.published_date }}</h5></a>
+		</div>
+        {% endfor %}
+    </div>
+</div>
+    <a href="/post_list"> <button style="color : white; background-color:#101010; border-radius:5px; padding: 20px; text-align : center; width : 50%; margin-left : 25%; margin-top : 5%">See All Activities -></button></a>
+</div>
+<div class="parallax3"></div>
+<div id="sponsors" class="jumbotron" style="background-color: white">
+<div  class="container-fluid text-center">
+    <h2 class="margin">Sponsors</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/static/bmu.png" class="img-responsive margin" style="width:60%; height:200px; margin-left:20%" alt="Academic sponsor">
+            <!--<h5 style="font-weight : bold;">Academic Sponsor</h5>-->
+        </div>
+        <div class="col-sm-4">
+            <img src="/static/hero.png" class="img-responsive margin" style="width:60%; height:200px; margin-left:20%" alt="sponsor 1">
+        </div>
+
+        <div class="col-sm-4">
+            <!--<img src="/static/logo.png" class="img-responsive margin" style="width:100%" alt="sponsor 3">-->
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="parallax2" style="background-image : url(/static/Steering.JPG)"></div>
+<div id="team" class="jumbotron">
+<div class="container-fluid text-center"  style="margin:0;">
+    <h2 class="margin">Team</h2>
+    <br><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Hiralal Agarwal</h4>
+            <h6>Team Manager</h6>
+        </div>
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Suraj Chatakondu</h4>
+            <h6>Engine Performance & Field Testing Manager</h6>
+        </div>
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Dinesh Kumar</h4>
+            <h6>Electronics & Programming</h6>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Seenu Sunil Kumar</h4>
+            <h6>Manufacturing & Quality Check Manager</h6>
+        </div>
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Sree Ram</h4>
+            <h6>Procurement & Performance Analysis Manager</h6>
+        </div>
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Nandit Mehra</h4>
+            <h6>Website Developer & Sponsorship Manager</h6>
+        </div>
+    </div>
+    <div class="row">
+        <h2>Our Mentor</h2>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <img src="/static/ironman.png" class="img-circle">
+            <h4>Govarthanan Prabhu</h4>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer class="container-fluid text-center" id="contactUs">
+    <div class="row">Third i | BML Munjal University | Shell Eco Marathon</div>
+    <br>
+    <div class="row">+91-9650385740</div>
+    <div class="row">hiralal.agarwal.14me@bml.edu.in | govarthanan.prabhu@bml.edu.in</div>
+</footer>
+
+</body>
+</html>
