@@ -2,3 +2,4 @@ Django==1.11.5
 pytz==2017.2
 gunicorn==19.7.1
 django_heroku==0.2.0
+Pillow==3.1.2
