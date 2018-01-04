@@ -1,0 +1,11 @@
+to deploy on heoku - 
+
+git add .
+git commit -m "some message"
+git push heroku master
+
+
+
+to  make live changes on heroku + python
+
+heroku run  python3 manage.py migrate, etc...
